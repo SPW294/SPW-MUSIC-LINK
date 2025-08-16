@@ -1,107 +1,50 @@
-# React
 
-A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
+```markdown
+# 🎶 SPW Music Link
 
-## 🚀 Features
+SPW Music Link é uma plataforma inovadora de **distribuição musical digital**, focada em **confiança, transparência e inteligência preditiva**.  
+A aplicação fornece **painéis analíticos interativos**, ajudando artistas e produtores a tomarem decisões inteligentes sobre suas músicas em diferentes plataformas.
 
-- **React 18** - React version with improved rendering and concurrent features
-- **Vite** - Lightning-fast build tool and development server
-- **Redux Toolkit** - State management with simplified Redux setup
-- **TailwindCSS** - Utility-first CSS framework with extensive customization
-- **React Router v6** - Declarative routing for React applications
-- **Data Visualization** - Integrated D3.js and Recharts for powerful data visualization
-- **Form Management** - React Hook Form for efficient form handling
-- **Animation** - Framer Motion for smooth UI animations
-- **Testing** - Jest and React Testing Library setup
+ 🚀 Funcionalidades
 
-## 📋 Prerequisites
+- 📊 **Dashboard Analítico** — métricas em tempo real de streams, alcance e engajamento.  
+- 🤖 **Recomendações por IA** — insights automáticos para aumentar a performance musical.  
+- 🌍 **Distribuição Multiplataforma** — suporte para diversas plataformas digitais.  
+- 🔒 **Segurança Avançada** — painel de administração oculto com autenticação por frase secreta.  
+- 🎨 **Design Moderno** — dark mode responsivo com animações baseadas em ondas sonoras.  
 
-- Node.js (v14.x or higher)
-- npm or yarn
+ 🛠️ Tecnologias Utilizadas
 
-## 🛠️ Installation
+- ⚡ [React](https://react.dev/) — Biblioteca principal para a interface.  
+- ⚡ [Vite](https://vitejs.dev/) — Bundler rápido e otimizado.  
+- 🎨 [TailwindCSS](https://tailwindcss.com/) — Estilização moderna e responsiva.  
+- 📊 [Recharts](https://recharts.org/en-US/) — Gráficos e visualização de dados.  
+- 🔐 Integrações futuras com **APIs (Google, Meta, Stripe, AWS S3, Algolia)**.  
 
-1. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-   
-2. Start the development server:
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-## 📁 Project Structure
+ 📂 Estrutura do Projeto
 
 ```
-react_app/
-├── public/             # Static assets
+
+spw_music_link/
+├── public/ # Arquivos públicos (favicon, manifest, robots.txt)
 ├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page components
-│   ├── styles/         # Global styles and Tailwind configuration
-│   ├── App.jsx         # Main application component
-│   ├── Routes.jsx      # Application routes
-│   └── index.jsx       # Application entry point
-├── .env                # Environment variables
-├── index.html          # HTML template
-├── package.json        # Project dependencies and scripts
-├── tailwind.config.js  # Tailwind CSS configuration
-└── vite.config.js      # Vite configuration
-```
-
-## 🧩 Adding Routes
-
-To add new routes to the application, update the `Routes.jsx` file:
-
-```jsx
-import { useRoutes } from "react-router-dom";
-import HomePage from "pages/HomePage";
-import AboutPage from "pages/AboutPage";
-
-const ProjectRoutes = () => {
-  let element = useRoutes([
-    { path: "/", element: <HomePage /> },
-    { path: "/about", element: <AboutPage /> },
-    // Add more routes as needed
-  ]);
-
-  return element;
-};
-```
-
-## 🎨 Styling
-
-This project uses Tailwind CSS for styling. The configuration includes:
-
-- Forms plugin for form styling
-- Typography plugin for text styling
-- Aspect ratio plugin for responsive elements
-- Container queries for component-specific responsive design
-- Fluid typography for responsive text
-- Animation utilities
-
-## 📱 Responsive Design
-
-The app is built with responsive design using Tailwind CSS breakpoints.
+│ ├── App.jsx # Componente principal
+│ ├── Routes.jsx # Configuração das rotas
+│ ├── components/ # Componentes reutilizáveis (UI, Header, Inputs...)
+│ ├── pages/ # Páginas principais (Dashboard, Analytics, NotFound)
+│ └── index.jsx # Ponto de entrada da aplicação
+├── package.json # Dependências e scripts
+├── vite.config.mjs # Configuração do Vite
+└── tailwind.config.js # Configuração do TailwindCSS
 
 
-## 📦 Deployment
 
-Build the application for production:
+👨‍💻 Autor
 
-```bash
-npm run build
-```
+Desenvolvido por **SPW Vision** 💡
+📧 Email: [spw\_admin@spwmusiclink.com](mailto:spw_admin@spwmusiclink.com)
+🔗 Site oficial: [SPW Music Link](#)
 
-## 🙏 Acknowledgments
 
-- Built with [Rocket.new](https://rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
 
-Built with ❤️ on Rocket.new
+
